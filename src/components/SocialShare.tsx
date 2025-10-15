@@ -3,7 +3,7 @@ import { Facebook, Instagram, MessageCircle, Twitter } from "lucide-react";
 const platforms = [
   { name: "Facebook", icon: Facebook, color: "text-[#1877F2]", url: "https://www.facebook.com/mobieye" },
   { name: "Instagram", icon: Instagram, color: "text-[#E4405F]", url: "#" },
-  { name: "WhatsApp", icon: MessageCircle, color: "text-[#25D366]", url: "#" },
+  { name: "WhatsApp", icon: MessageCircle, color: "text-[#25D366]", url: "https://wa.me/919350751751" },
   { name: "Twitter", icon: Twitter, color: "text-[#1DA1F2]", url: "#" },
 ];
 
