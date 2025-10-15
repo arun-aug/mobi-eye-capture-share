@@ -33,9 +33,12 @@ const Hero = () => {
             <Button 
               size="lg" 
               className="bg-primary hover:bg-primary/90 text-primary-foreground shadow-lg hover:shadow-xl transition-all hover:scale-105 text-lg px-8 py-6"
+              asChild
             >
-              <Download className="mr-2 h-5 w-5" />
-              Download for Android
+              <a href="https://play.google.com/store/apps/details?id=com.demo.mobieye" target="_blank" rel="noopener noreferrer">
+                <Download className="mr-2 h-5 w-5" />
+                Download for Android
+              </a>
             </Button>
             <Button 
               size="lg" 
